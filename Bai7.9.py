@@ -1,0 +1,6 @@
+in_file = open('test.txt','r')
+indata = in_file.read()
+out_file = open('file1.txt', 'w')
+out_file.write(indata)
+out_file.close()
+in_file.close()
